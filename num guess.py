@@ -1,8 +1,7 @@
 import random
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100...")
-i=True
-while i:
+while True:
     sn=random.randint(1, 100)
     attempts = 0
     while True:
@@ -24,4 +23,5 @@ while i:
     a=input("Do u want to continue 'y'/'n': ")
     if a=="n":
         break
+
 
